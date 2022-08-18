@@ -1,10 +1,16 @@
-
-import './App.css';
+import "./App.css";
+import { Header } from "./components/Header";
+import { Skills } from "./components/Skills";
+import {Contact} from "./components/Contact";
 
 function App() {
   return (
-    <h1>Hello</h1>
-    )
+    <>
+      <Header />
+      <Skills />
+      <Contact />
+    </>
+  );
 }
 
 export default App;
